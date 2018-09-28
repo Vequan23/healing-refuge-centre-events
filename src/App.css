@@ -1,0 +1,10 @@
+
+.wrapper {
+  display: grid;
+}
+
+
+.header__avi {
+  border-radius: 100%;
+  width: 30%;
+}
