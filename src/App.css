@@ -1,10 +1,32 @@
 
 .wrapper {
   display: grid;
+
 }
 
 
 .header__avi {
-  border-radius: 100%;
-  width: 30%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content-box {
+  background: #3f51b5;
+  height: 10rem;
+}
+
+.content-box__header {
+  text-align: center
+}
+.header__text {
+  text-align: center;
+}
+
+.content-box__paragraph {
+  text-align: center;
+}
+
+.content-box__icon  {
+  text-align: center;
 }
