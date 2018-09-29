@@ -13,7 +13,9 @@
 
 .content-box {
   background: #3f51b5;
-  height: 10rem;
+  min-height: 10rem;
+  padding: 3rem;
+  margin-bottom: 1rem;
 }
 
 .content-box__header {
@@ -29,4 +31,11 @@
 
 .content-box__icon  {
   text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.content-box__list {
+  width: 70%;
+  margin: auto;
 }
