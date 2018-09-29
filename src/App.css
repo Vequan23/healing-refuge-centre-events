@@ -1,4 +1,9 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
 
+}
 .wrapper {
   display: grid;
 
@@ -35,7 +40,17 @@
   width: 100%;
 }
 
-.content-box__list {
-  width: 70%;
-  margin: auto;
+.content-box__list { 
+  text-align: center; 
+}
+
+.content-box__list-Item {
+  padding: 1rem;
+  list-style: none;
+}
+
+.content-box__button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem;
 }
