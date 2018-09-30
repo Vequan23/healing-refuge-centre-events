@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import avi from './imgs/lamonica-avi.jpg'
+import hero from './imgs/Healing_through_brokeness-hero.jpg'
+
 
 class App extends Component {
   render() {
@@ -9,6 +11,7 @@ class App extends Component {
       <div className="wrapper">
         <header className="header">
           <img className="header__avi" src={avi}></img>
+          <img className="header__hero" src={hero}></img>
           <h3 className="header__text">E. LaMonica Williams, MSW , LSCW</h3>
         </header>
         <section className="content-box">
@@ -40,9 +43,7 @@ class App extends Component {
             <li className="content-box__list-Item">  You can do a split payment option. Your payment may be split into two payments if necessary. <br></br><br></br> One payment of 120 will be due at the time of Registration and your last payment of 120 will be due two weeks later</li>
             <li className="content-box__list-Item">  Your full payment must be in by November 1st, 2018 to lock the rate of $240.00 in (so think about when you will register because you only have two weeks after registration to pay your remaining balance) <br></br><br></br> Ex. if you register October 18th, 2018 your second and final payment will be due November 1st, 2018</li>
             <li className="content-box__list-Item"> After November 1st, 2018 the rate will increase to $260.00 ($65.00/per session)</li>
-            <li className="content-box__list-Item"> Monday December 10th, 2018</li>
             <p className=" content-box__paragraph content-box__paragraph--bold">To register please email lamonica@healingrc.com and eeither Lamonica or one of our team members wil contact you to get you registered. I am looking forward to working with you as you embrace your healing</p>
-
           </ul>
         </section>
 

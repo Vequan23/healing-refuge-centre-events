@@ -13,12 +13,6 @@ li {
 a {
   color: black;
 }
-.wrapper {
-  display: grid;
-
-}
-
-
 
 
 .header__avi {
@@ -33,12 +27,12 @@ a {
   min-height: 10rem;
   padding: 1.78rem;
   margin-bottom: 1rem;
-  border-top: 20px solid var(--color-black)
-
+  border-top: 1rem solid var(--color-black)
 }
 
 .content-box__header {
-  text-align: center
+  text-align: center;
+  text-transform: uppercase;
 }
 .header__text {
   text-align: center;
@@ -56,6 +50,7 @@ a {
   text-align: center;
   display: inline-block;
   width: 100%;
+ 
 }
 
 .content-box__list { 
@@ -73,7 +68,7 @@ a {
   padding: 0.7rem;
   background: var(--color-blue);;
   color: var(--color-white);;
-  border: 1px white solid;
+  border: 0.06rem white solid;
   border-radius: 5%;
 }
 
@@ -82,4 +77,28 @@ a {
   cursor: pointer;
 }
 
+.header__hero {
+  display: none;
+}
 
+
+
+@media (min-width: 64em) {
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+
+.header__hero {
+  display: block;
+}
+
+.wrapper {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem
+}
+
+
+}
