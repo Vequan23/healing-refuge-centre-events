@@ -3,16 +3,32 @@ import logo from './logo.svg';
 import './App.css';
 import avi from './imgs/lamonica-avi.jpg'
 import hero from './imgs/Healing_through_brokeness-hero.jpg'
+import hero2 from './imgs/hfc_stock.jpeg'
+
+
 
 
 class App extends Component {
   render() {
     return (
+
       <div className="wrapper">
+        <nav className="primary-nav">
+          <ul className="primary-nav__icon-list">
+            <li> <i class="primary-nav__icon-list-icon fab fa-facebook-square fa-2x"></i></li>
+            <li><i class="primary-nav__icon-list-icon fab fa-twitter-square fa-2x"></i></li>
+            <li><i class="primary-nav__icon-list-icon fab fa-cc-paypal fa-2x"></i></li>
+          </ul>
+        </nav>
         <header className="header">
           <img className="header__avi" src={avi}></img>
           <img className="header__hero" src={hero}></img>
-          <h3 className="header__text">E. LaMonica Williams, MSW , LSCW</h3>
+          <p className="header__title">4 Week Therapeutic Healing Group</p>
+          <h3 className="header__text">Presented By: E. LaMonica Williams, MSW , LSCW</h3>
+          {/* <button className=" header__button content-box__button">Learn More</button> */}
+          <i class="header__icon content-box__icon fas fa-briefcase-medical fa-3x"></i>
+
+
         </header>
 
         <section className="content-box__wrapper">
