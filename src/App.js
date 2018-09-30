@@ -37,8 +37,9 @@ class App extends Component {
           <h5 className="content-box__header">Payment Plans</h5>
           <ul className="content-box__list">
             <li className="content-box__list-Item"> - You can pay in full before October 4th, 2018 at a special rate of just $220.00</li>
-            <li className="content-box__list-Item"> - You can do a split payment option. Your payment may be split into two payments if necessary. One payment of 120 will be due at the time of Registration and your last payment of 120 will be due two weeks later</li>
-            <li className="content-box__list-Item"> - Monday December 3rd, 2018</li>
+            <li className="content-box__list-Item"> - You can do a split payment option. Your payment may be split into two payments if necessary. <br></br><br></br> One payment of 120 will be due at the time of Registration and your last payment of 120 will be due two weeks later</li>
+            <li className="content-box__list-Item"> - Your full payment must be in by November 1st, 2018 to lock the rate of $240.00 in (so think about when you will register because you only have two weeks after registration to pay your remaining balance) <br></br><br></br> Ex. if you register October 18th, 2018 your second and final payment will be due November 1st, 2018</li>
+            <li className="content-box__list-Item">- After November 1st, 2018 the rate will increase to $260.00 ($65.00/per session)</li>
             <li className="content-box__list-Item">- Monday December 10th, 2018</li>
           </ul>
         </section>
