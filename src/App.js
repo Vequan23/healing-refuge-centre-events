@@ -28,7 +28,7 @@ class App extends Component {
       <div className="wrapper">
         <nav className="primary-nav">
           <ul className="primary-nav__icon-list">
-            <li> <a href="https://www.facebook.com"><i class="primary-nav__icon-list-icon fab fa-facebook-square fa-2x"></i></a></li>
+            <li> <a href="https://www.facebook.com/lamonica.williams.7127"><i class="primary-nav__icon-list-icon fab fa-facebook-square fa-2x"></i></a></li>
             <li><a href="https://www.twitter.com"><i class="primary-nav__icon-list-icon fab fa-twitter-square fa-2x"></i></a></li>
             <li><a href="https://www.paypal.com"><i class="primary-nav__icon-list-icon fab fa-cc-paypal fa-2x"></i></a></li>
           </ul>
