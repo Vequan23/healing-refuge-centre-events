@@ -2,6 +2,7 @@
   "name": "healing-refuge-centre",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Vequan23.github.io/healing-refuge-centre-events",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "react": "^16.5.2",
@@ -12,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
   }
 }
