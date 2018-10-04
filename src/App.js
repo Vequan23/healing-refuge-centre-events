@@ -35,7 +35,7 @@ class App extends Component {
               </a>
             </li>
             <li>
-              <a href="https://www.paypal.me/PELW">
+              <a href="https://www.paypal.me/PELM">
                 <i class="primary-nav__icon-list-icon fab fa-cc-paypal fa-2x" />
               </a>
             </li>
@@ -200,9 +200,19 @@ class App extends Component {
               <li className="content-box__list-Item"> Credit Card</li>
               <li className="content-box__list-Item">
                 {" "}
-                <a href="https://www.paypal.me/PELW"> Paypal:</a>
+                <a href="https://www.paypal.me/PELM"> Paypal:</a>
               </li>
             </ul>
+            <p className=" content-box__paragraph content-box__paragraph--bold">
+              To pay with a credit card please call
+              <br />
+              <a href="tel:+316-313-4246">316-313-4246</a>
+            </p>
+
+            <p className=" content-box__paragraph content-box__paragraph--bold">
+              I am looking forward to working with you as you embrance your
+              healing
+            </p>
           </section>
         </section>
       </div>
